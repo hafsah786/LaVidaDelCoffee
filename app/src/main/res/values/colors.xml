@@ -3,5 +3,9 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+<<<<<<< HEAD
     <color name="colorBrown">#994C00</color>
+=======
+    <color name="brownAccent">#994C00</color>
+>>>>>>> c80eaf5689fb2bb3bf7050e42d7161cbf67be494
 </resources>
