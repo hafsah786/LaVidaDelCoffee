@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">La Vida Del Coffee</string>
+    <string name="latteText">Latte</string>
+    <string name="cappText">Cappuccino</string>
+    <string name="macchiatoText">Macchiato</string>
+    <string name="americanoText">Americano</string>
+    <string name="espressoText">Espresso</string>
+    <string name="mochaText">Mocha</string>
+    <string name="latteDescription">Latte is originated in Italy. It is prepared with a rich shot of espresso with steamed milk, topped with a thin layer of foamed milk. Latte is usually a morning coffee and Italians never drink it after 10 a.m because of the heavy portion of milk. The coffee content in latte is very diluted and it has a sweet, mellow flavor that can light up your day. Latte helps ward off depression and headaches, but high intake will give you significant calories because of the milk, sugar and syrup.</string>
+    <string name="latteInfo">⅙ espresso; 4/6 steamed milk; 1/6 foamed milk; 75 mg caffeine per 12 oz.</string>
+
+
 </resources>
