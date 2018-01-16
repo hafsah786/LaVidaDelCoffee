@@ -15,7 +15,7 @@
         app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:srcCompat="@drawable/N59Da" />
+        app:srcCompat="@drawable/latteimage" />
 
     <TextView
         android:id="@+id/latteText"
@@ -24,7 +24,6 @@
         android:fontFamily="casual"
         android:text="@string/latteText"
         android:textAlignment="center"
-        android:textColor="@color/brownAccent"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
