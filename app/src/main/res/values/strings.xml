@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">La Vida Del Coffee</string>
+    <string name="title">La Vida del Coffee</string>
+    <string name="startButton">" Start "</string>
 </resources>
