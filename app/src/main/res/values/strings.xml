@@ -1,5 +1,9 @@
 <resources>
     <string name="app_name">La Vida Del Coffee</string>
+<<<<<<< HEAD
+    <string name="title">La Vida del Coffee</string>
+    <string name="startButton">" Start "</string>
+=======
     <string name="latteText">Latte</string>
     <string name="cappText">Cappuccino</string>
     <string name="macchiatoText">Macchiato</string>
@@ -10,4 +14,5 @@
     <string name="latteInfo"> 1/6 espresso; 4/6 steamed milk; 1/6 foamed milk; 75 mg caffeine per 12 oz.</string>
 
 
+>>>>>>> c80eaf5689fb2bb3bf7050e42d7161cbf67be494
 </resources>
