@@ -36,12 +36,14 @@
             android:layout_height="143dp"
             android:layout_below="@+id/textView2"
             android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorBrown"
             android:fontFamily="casual"
             android:text="@string/CappuccinoDescription"
             android:textAlignment="center"
             android:textColor="@android:color/background_light"
             android:textSize="15sp"
-            tools:background="@color/colorBrown"
             tools:layout_editor_absoluteX="46dp"
             tools:layout_editor_absoluteY="524dp" />
 
@@ -69,6 +71,7 @@
             android:layout_height="wrap_content"
             android:layout_alignEnd="@+id/imageView5"
             android:layout_below="@+id/latteContent"
+            android:layout_alignParentBottom="true"
             android:text="@string/locationButton" />
 
 
