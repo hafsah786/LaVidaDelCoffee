@@ -17,8 +17,8 @@
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="36dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="65dp"
             app:srcCompat="@drawable/unnamed"
             tools:layout_editor_absoluteX="0dp"
             tools:layout_editor_absoluteY="100dp" />
@@ -26,7 +26,7 @@
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="87dp"
+            android:layout_height="70dp"
             android:autoSizeStepGranularity="@android:dimen/dialog_min_width_major"
             android:autoSizeTextType="none"
             android:background="@color/colorBrown"
@@ -45,7 +45,7 @@
             android:layout_width="80dp"
             android:layout_height="36dp"
             android:layout_marginLeft="260dp"
-            android:layout_marginTop="480dp"
+            android:layout_marginTop="520dp"
             android:background="@color/colorBrown"
             android:fontFamily="casual"
             android:text="@string/startButton"

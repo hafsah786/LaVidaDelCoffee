@@ -10,8 +10,22 @@
     <string name="americanoText">Americano</string>
     <string name="espressoText">Espresso</string>
     <string name="mochaText">Mocha</string>
-    <string name="latteDescription">Latte is originated in Italy. It is prepared with a rich shot of espresso with steamed milk, topped with a thin layer of foamed milk. Latte is usually a morning coffee and Italians never drink it after 10 a.m because of the heavy portion of milk. The coffee content in latte is very diluted and it has a sweet, mellow flavor that can light up your day. Latte helps ward off depression and headaches, but high intake will give you significant calories because of the milk, sugar and syrup.</string>
-    <string name="latteInfo">1/6 espresso; 4/6 steamed milk; 1/6 foamed milk; 75 mg caffeine per 12 oz.</string>
 
+    <string name="CappuccinoInfo">1/3 espresso; 1/3 steamed milk; 1/3 foamed milk \n75 mg caffeine per 12 oz.</string>
+    <string name="CappuccinoDescription">Cappuccino originated in Italy. The traditional cappuccino is prepared with two or one shots of rich espresso, topped with foamed milk. Cappuccino provides various psychological health benefits such as mind stimulation and mental alertness.</string>
 
+    <string name="LatteInfo">1/6 espresso; 4/6 steamed milk; 1/6 foamed milk \n75 mg caffeine per 12 oz.</string>
+    <string name="LatteDescription">Latte originated in Italy. It is prepared with a rich shot of espresso, layered with steamed milk, and topped with a thin layer of foam. Lattes are very diluted and have a sweet, mellow flavor that can light up your day.</string>
+
+    <string name="mochaDescription">A mocha consists of espresso and hot milk with added chocolate, typically in the form of sweet cocoa powder or chocolate syrup. Mocha is relatively low in caffeine and tastes more like hot chocolate, which makes it a great coffee choice for both morning and afternoon.</string>
+    <string name="mochaInfo">2/5 espresso; 2/5 chocolate syrup; 1/5 steamed milk \n95 mg caffeine per 12 oz.</string>
+
+    <string name="americanoInfo">2/5 espresso; 3/5 hot water \n150 mg caffeine per 12 oz.</string>
+    <string name="americanoDescription">Cafe Americano is a watered-down shot of espresso with a flavor arriving very close to simple, brewed coffee. The strong espresso in Americano awakens and increases productivity, but consumption is not suggested after 7pm.</string>
+
+    <string name="macchiatoInfo">3/4 espresso; 1/4 steamed milk \n169 mg caffeine per 12 oz.</string>
+    <string name="macchiatoDescription">A macchiato is simply a shot of espresso topped with foamed milk. Macchiato can help gain focusness and mental alertness and also keep your blood pressure in control. However, high intake may cause side effects, such as increases in anxiety and nervousness.</string>
+
+    <string name="espressoDescription">"Espresso is coffee brewed by forcing out a small amount of nearly boiling water under pressure through finely ground coffee beans. It is always a good idea to stop ordering espresso 8 hours before you go to bed.  "</string>
+    <string name="espressoInfo">single shot or double shot of espresso \n65 mg caffeine per 1 oz.</string>
 </resources>
