@@ -54,13 +54,10 @@
 
         <TextView
             android:id="@+id/latteContent"
-            android:layout_width="322dp"
+            android:layout_width="340dp"
             android:layout_height="128dp"
-            android:layout_alignEnd="@+id/imageView"
-            android:layout_below="@+id/latteInfo"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="6dp"
-            android:layout_marginTop="20dp"
+            android:layout_above="@+id/button"
+            android:layout_centerHorizontal="true"
             android:fontFamily="casual"
             android:text="@string/americanoDescription"
             android:textAlignment="center"
@@ -70,6 +67,14 @@
             tools:background="@color/colorBrown"
             tools:layout_editor_absoluteX="46dp"
             tools:layout_editor_absoluteY="524dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/latteText"
+            android:text="@string/locationButton" />
 
 
     </RelativeLayout>

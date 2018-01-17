@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">My First App</string>
-    <string name="hello_text">Hello!</string>
-    <string name="button_left">Left Button</string>
-    <string name="button_right">Press Me!</string>
-    <string name="pressed_button">You did it!</string>
-</resources>
