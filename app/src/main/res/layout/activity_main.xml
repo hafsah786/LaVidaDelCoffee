@@ -26,7 +26,7 @@
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="75dp"
             android:autoSizeStepGranularity="@android:dimen/dialog_min_width_major"
             android:autoSizeTextType="none"
             android:background="@color/colorBrown"
@@ -48,6 +48,7 @@
             android:layout_marginTop="520dp"
             android:background="@color/colorBrown"
             android:fontFamily="casual"
+            android:onClick="startApp"
             android:text="@string/startButton"
             android:textAllCaps="false"
             android:textColor="@android:color/background_light"

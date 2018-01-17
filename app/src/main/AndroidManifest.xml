@@ -21,7 +21,8 @@
         <activity android:name=".MochaActivity" />
         <activity android:name=".AmericanoActivity" />
         <activity android:name=".EspressoActivity" />
-        <activity android:name=".MacchiatoActivity"></activity>
+        <activity android:name=".MacchiatoActivity" />
+        <activity android:name=".consumedActivity"></activity>
     </application>
 
 </manifest>

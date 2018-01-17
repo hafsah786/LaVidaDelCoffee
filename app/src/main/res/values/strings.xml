@@ -29,4 +29,8 @@
     <string name="espressoDescription">"Espresso is coffee brewed by forcing out a small amount of nearly boiling water under pressure through finely ground coffee beans. It is always a good idea to stop ordering espresso 8 hours before you go to bed.  "</string>
     <string name="espressoInfo">single shot or double shot of espresso \n65 mg caffeine per 1 oz.</string>
     <string name="locationButton">LOCATIONS </string>
+
+    <string name="consumed_question">How many cups (12oz.) of coffee have you already consumed today?</string>
+    <string name="consumed_hint">Please enter a number here (e.g. 0, 1, 2)</string>
+    <string name="consumed_button">submit</string>
 </resources>
