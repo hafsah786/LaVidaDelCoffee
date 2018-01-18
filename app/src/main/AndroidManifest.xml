@@ -21,7 +21,13 @@
         <activity android:name=".MochaActivity" />
         <activity android:name=".AmericanoActivity" />
         <activity android:name=".EspressoActivity" />
-        <activity android:name=".MacchiatoActivity"></activity>
+        <activity android:name=".MacchiatoActivity" />
+        <activity android:name=".AmericanoLocationActivity" />
+        <activity android:name=".CappuccinoLocationActivity" />
+        <activity android:name=".EspressoLocationActivity" />
+        <activity android:name=".LatteLocationActivity" />
+        <activity android:name=".MacchiatoLocationActivity" />
+        <activity android:name=".MochaLocationActivity"></activity>
     </application>
 
 </manifest>
