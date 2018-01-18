@@ -22,15 +22,14 @@
         <activity android:name=".AmericanoActivity" />
         <activity android:name=".EspressoActivity" />
         <activity android:name=".MacchiatoActivity" />
-
         <activity android:name=".AmericanoLocationActivity" />
         <activity android:name=".CappuccinoLocationActivity" />
         <activity android:name=".EspressoLocationActivity" />
         <activity android:name=".LatteLocationActivity" />
         <activity android:name=".MacchiatoLocationActivity" />
-        <activity android:name=".MochaLocationActivity"></activity>
-        <activity android:name=".consumedActivity"></activity>
-
+        <activity android:name=".MochaLocationActivity" />
+        <activity android:name=".consumedActivity" />
+        <activity android:name=".NoRemainingCoffeeActivity"></activity>
     </application>
 
 </manifest>

@@ -60,5 +60,7 @@
     <string name="consumed_question">How many cups (12oz.) of coffee have you already consumed today?</string>
     <string name="consumed_hint">Please enter a number here (e.g. 0, 1, 2)</string>
     <string name="consumed_button">submit</string>
+    <string name="limitReached">YOU HAVE REACHED YOUR COFFEE LIMIT!</string>
+    <string name="dontCosume">Please do not consume anymore coffee or caffeine today!</string>
 
 </resources>
