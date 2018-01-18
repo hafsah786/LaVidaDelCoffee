@@ -39,7 +39,7 @@
             tools:layout_editor_absoluteY="143dp" />
 
         <CheckBox
-            android:id="@+id/checkBox"
+            android:id="@+id/milkBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
@@ -48,13 +48,15 @@
             android:textSize="18sp" />
 
         <CheckBox
+            android:id="@+id/chocBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
-            android:text="Chocolate"
+            android:text="@string/chocolate_string"
             android:textSize="18sp" />
 
         <CheckBox
+            android:id="@+id/frothBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
@@ -62,6 +64,7 @@
             android:textSize="18sp" />
 
         <CheckBox
+            android:id="@+id/noneBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="50dp"

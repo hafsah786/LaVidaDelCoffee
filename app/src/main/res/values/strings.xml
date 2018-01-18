@@ -67,5 +67,6 @@
     <string name="milk_text">Milk</string>
     <string name="froth_text">Froth</string>
     <string name="none_button">None of the above options</string>
+    <string name="chocolate_string">Chocolate</string>
 
 </resources>
