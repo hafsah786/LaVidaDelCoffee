@@ -59,6 +59,8 @@
             android:layout_height="120dp"
             android:layout_above="@+id/button"
             android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorBrown"
             android:fontFamily="casual"
             android:paddingEnd="5dp"
             android:paddingStart="5dp"
@@ -67,7 +69,6 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"
             android:textColor="@android:color/background_light"
             android:textSize="15sp"
-            tools:background="@color/colorBrown"
             tools:layout_editor_absoluteX="46dp"
             tools:layout_editor_absoluteY="524dp" />
 

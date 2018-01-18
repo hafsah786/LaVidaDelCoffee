@@ -30,6 +30,7 @@
     <string name="espressoInfo">single shot or double shot of espresso \n65 mg caffeine per 1 oz.</string>
     <string name="locationButton">LOCATIONS </string>
 
+<<<<<<< HEAD
     <string name="star">Starbucks</string>
     <string name="wood">Woodstar Café</string>
     <string name="roost">The Roost</string>
@@ -56,4 +57,9 @@
     <string name="home_text">HOME</string>
 
 
+=======
+    <string name="consumed_question">How many cups (12oz.) of coffee have you already consumed today?</string>
+    <string name="consumed_hint">Please enter a number here (e.g. 0, 1, 2)</string>
+    <string name="consumed_button">submit</string>
+>>>>>>> 4e832744cc64bc00e41d618db7ec5eeeacf7ea3f
 </resources>

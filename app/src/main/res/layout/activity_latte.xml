@@ -41,15 +41,13 @@
 
         <TextView
             android:id="@+id/latteInfo"
-            android:layout_width="307dp"
-            android:layout_height="43dp"
+            android:layout_width="337dp"
+            android:layout_height="53dp"
+            android:layout_alignStart="@+id/imageView"
             android:layout_below="@+id/latteText"
-            android:layout_centerHorizontal="true"
             android:fontFamily="casual"
             android:text="@string/LatteInfo"
             android:textAlignment="center"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
             tools:layout_editor_absoluteY="272dp" />
 
         <TextView
@@ -58,16 +56,13 @@
             android:layout_height="120dp"
             android:layout_alignEnd="@+id/imageView"
             android:layout_below="@+id/latteInfo"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="6dp"
             android:layout_marginTop="20dp"
+            android:background="@color/colorBrown"
             android:fontFamily="casual"
             android:text="@string/LatteDescription"
             android:textAlignment="center"
             android:textColor="@android:color/background_light"
             android:textSize="15sp"
-            tools:background="@color/colorBrown"
-            tools:layout_editor_absoluteX="46dp"
             tools:layout_editor_absoluteY="524dp" />
 
         <Button
