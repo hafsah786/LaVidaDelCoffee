@@ -5,4 +5,8 @@ package com.smithjterm.lavidadelcoffee;
  */
 
 public class calculateConsumption {
+
+    public void determineCoffee(){
+        
+    }
 }
