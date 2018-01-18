@@ -78,6 +78,7 @@
             android:layout_height="wrap_content"
             android:layout_alignEnd="@+id/imageView"
             android:layout_alignParentBottom="true"
+            android:onClick="locationAct"
             android:text="@string/locationButton" />
 
 

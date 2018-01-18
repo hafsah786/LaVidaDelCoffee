@@ -13,5 +13,8 @@ public class CappuccinoActivity extends AppCompatActivity {
         setContentView(R.layout.activity_cappuccino);
     }
 
-
+    public void locationAct(View view) {
+        Intent i = new Intent(this, CappuccinoLocationActivity.class);
+        startActivity(i);
+    }
 }

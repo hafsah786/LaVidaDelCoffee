@@ -1,6 +1,7 @@
 package com.smithjterm.lavidadelcoffee;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Color;
 import android.graphics.Typeface;
@@ -26,7 +27,10 @@ public class AmericanoActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_americano);
+    }
 
-
+    public void locationAct(View view) {
+        Intent i = new Intent(this, AmericanoLocationActivity.class);
+        startActivity(i);
     }
 }
