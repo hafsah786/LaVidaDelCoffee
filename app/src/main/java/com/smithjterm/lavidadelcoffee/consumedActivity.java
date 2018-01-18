@@ -3,6 +3,7 @@ package com.smithjterm.lavidadelcoffee;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -32,9 +33,6 @@ public class consumedActivity extends AppCompatActivity {
         int consumed = getConsumed() * 95;
         int left = 400 - consumed;
 
-        int minimumInt = Integer.MAX_VALUE;
-        String minimumString = null;
-
         ArrayList<String> remainingArr = new ArrayList<String>();
 
         int remainingLatte = left - LATTE;
@@ -45,41 +43,33 @@ public class consumedActivity extends AppCompatActivity {
         int remainingCapp = left - CAPP;
 
 
-        if (remainingLatte >= 0 && remainingLatte <= minimumInt) {
-            minimumInt = remainingLatte;
-            Random rand = new Random();
-            int value = rand.nextInt(2);
-            if (value == 0){
-                minimumString = "Latte";
-            }
-            else {
-                minimumString = "Cappuccino";
-            }
-
+        if (remainingLatte >= 0) {
+            remainingArr.add("Latte");
         }
 
-
-        if (remainingAm >= 0 && remainingAm <= minimumInt) {
-            minimumInt = remainingAm;
-            minimumString = "Americano";
+        if (remainingCapp >= 0) {
+            remainingArr.add("Cappuccino");
         }
 
-        if (remainingMac >= 0 && remainingMac <= minimumInt) {
-            minimumInt = remainingMac;
-            minimumString = "Macchiato";
+        if (remainingAm >= 0 ) {
+            remainingArr.add("Americano");
         }
 
-        if (remainingEsp >= 0 && remainingEsp <= minimumInt) {
-            minimumInt = remainingEsp;
-            minimumString = "Espresso";
+        if (remainingMac >= 0 ) {
+            remainingArr.add("Macchiato");
         }
 
-        if (remainingMocha >= 0 && remainingMocha <= minimumInt) {
-            minimumInt = remainingMocha;
-            minimumString = "Mocha";
+        if (remainingEsp >= 0 ) {
+            remainingArr.add("Espresso");
         }
 
-        return minimumString;
+        if (remainingMocha >= 0 ) {
+            remainingArr.add("Mocha");
+        }
+
+        Random rand = new Random();
+        int value = rand.nextInt(remainingArr.size());
+        return remainingArr.get(value);
     }
 
     public void jumpActivity(View view) {
@@ -110,7 +100,6 @@ public class consumedActivity extends AppCompatActivity {
         }
 
     }
-
 
     public int getConsumed (){
         TextView input = (TextView) findViewById(R.id.userinput_box);
