@@ -64,5 +64,8 @@
     <string name="dontCosume">Please do not consume anymore coffee or caffeine today!</string>
     <string name="nextButton">next</string>
     <string name="coffee_preference">What do you like in your coffee?</string>
+    <string name="milk_text">Milk</string>
+    <string name="froth_text">Froth</string>
+    <string name="none_button">None of the above options</string>
 
 </resources>

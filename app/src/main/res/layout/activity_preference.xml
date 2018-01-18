@@ -43,7 +43,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
-            android:text="Milk"
+            android:text="@string/milk_text"
             android:textAlignment="viewStart"
             android:textSize="18sp" />
 
@@ -58,7 +58,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
-            android:text="Froth"
+            android:text="@string/froth_text"
             android:textSize="18sp" />
 
         <CheckBox
@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="50dp"
             android:layout_marginLeft="60dp"
-            android:text="None"
+            android:text="@string/none_button"
             android:textSize="18sp" />
 
 
