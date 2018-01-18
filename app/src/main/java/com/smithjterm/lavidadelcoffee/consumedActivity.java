@@ -33,6 +33,10 @@ public class consumedActivity extends AppCompatActivity {
         int consumed = getConsumed() * 95;
         int left = 400 - consumed;
 
+        if(left < 0) {
+            return "nocoffee";
+        }
+
         ArrayList<String> remainingArr = new ArrayList<String>();
 
         int remainingLatte = left - LATTE;
@@ -96,6 +100,10 @@ public class consumedActivity extends AppCompatActivity {
         }
         else if(determined.equals("Mocha")) {
             Intent i = new Intent(this, MochaActivity.class);
+            startActivity(i);
+        }
+        else if(determined.equals("nocoffee")) {
+            Intent i = new Intent(this, NoRemainingCoffeeActivity.class);
             startActivity(i);
         }
 

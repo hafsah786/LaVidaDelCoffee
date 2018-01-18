@@ -29,7 +29,8 @@
         <activity android:name=".MacchiatoLocationActivity" />
         <activity android:name=".MochaLocationActivity" />
         <activity android:name=".consumedActivity" />
-        <activity android:name=".NoRemainingCoffeeActivity"></activity>
+        <activity android:name=".NoRemainingCoffeeActivity" />
+        <activity android:name=".preferenceActivity"></activity>
     </application>
 
 </manifest>

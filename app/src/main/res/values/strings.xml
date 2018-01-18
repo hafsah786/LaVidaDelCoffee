@@ -62,5 +62,7 @@
     <string name="consumed_button">submit</string>
     <string name="limitReached">YOU HAVE REACHED YOUR COFFEE LIMIT!</string>
     <string name="dontCosume">Please do not consume anymore coffee or caffeine today!</string>
+    <string name="nextButton">next</string>
+    <string name="coffee_preference">What do you like in your coffee?</string>
 
 </resources>

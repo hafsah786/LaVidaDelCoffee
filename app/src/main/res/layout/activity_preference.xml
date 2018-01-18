@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.smithjterm.lavidadelcoffee.consumedActivity">
+    tools:context="com.smithjterm.lavidadelcoffee.preferenceActivity">
 
     <LinearLayout
         android:layout_width="422dp"
@@ -25,11 +25,11 @@
             android:id="@+id/consumed_question"
             android:layout_width="357dp"
             android:layout_height="57dp"
-            android:layout_marginBottom="30dp"
+            android:layout_marginBottom="10dp"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="120dp"
             android:gravity="center"
-            android:text="@string/consumed_question"
+            android:text="@string/coffee_preference"
             android:textAlignment="center"
             android:textColor="@color/colorBrown"
             android:textSize="22sp"
@@ -37,20 +37,36 @@
             tools:layout_editor_absoluteX="27dp"
             tools:layout_editor_absoluteY="143dp" />
 
-        <EditText
-            android:id="@+id/userinput_box"
-            android:layout_width="374dp"
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="50dp"
-            android:layout_marginLeft="25dp"
-            android:ems="10"
-            android:gravity="left|center"
-            android:hint="@string/consumed_hint"
-            android:inputType="textPersonName"
-            android:textColorLink="@color/colorBrown"
-            android:textSize="16sp"
-            tools:layout_editor_absoluteX="60dp"
-            tools:layout_editor_absoluteY="261dp" />
+            android:layout_marginLeft="60dp"
+            android:text="Milk"
+            android:textAlignment="viewStart"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="Chocolate"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="Froth"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:text="None"
+            android:textSize="18sp" />
+
 
         <Button
             android:id="@+id/submit_button"
@@ -58,6 +74,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:layout_marginLeft="170dp"
+            android:layout_marginTop="20dp"
             android:background="@color/colorBrown"
             android:onClick="jumpActivity"
             android:text="@string/nextButton"
@@ -67,12 +84,14 @@
             tools:layout_editor_absoluteX="142dp"
             tools:layout_editor_absoluteY="364dp" />
 
+
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:baselineAlignBottom="true"
             app:srcCompat="@drawable/beans" />
+
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
