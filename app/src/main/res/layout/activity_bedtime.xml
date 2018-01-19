@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.smithjterm.lavidadelcoffee.consumedActivity">
+
+    <LinearLayout
+        android:layout_width="422dp"
+        android:layout_height="638dp"
+        android:layout_marginBottom="468dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.215"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.019">
+
+        <TextView
+            android:id="@+id/bedtime_question"
+            android:layout_width="357dp"
+            android:layout_height="57dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="120dp"
+            android:gravity="center"
+            android:text="@string/bedtime"
+            android:textAlignment="center"
+            android:textColor="@color/colorBrown"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="27dp"
+            tools:layout_editor_absoluteY="143dp" />
+
+        <EditText
+            android:id="@+id/bedtimeinput_box"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginLeft="55dp"
+            android:ems="10"
+            android:gravity="left|center"
+            android:hint="@string/bedtime_hint"
+            android:inputType="textPersonName"
+            android:textColorLink="@color/colorBrown"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="261dp" />
+
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="170dp"
+            android:background="@color/colorBrown"
+            android:onClick="bedTime"
+            android:text="@string/nextButton"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="142dp"
+            tools:layout_editor_absoluteY="364dp" />
+
+        <ImageView
+            android:id="@+id/coffeeLove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAlignBottom="true"
+            app:srcCompat="@drawable/beans" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

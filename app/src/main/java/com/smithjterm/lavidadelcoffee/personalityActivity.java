@@ -92,7 +92,7 @@ public class personalityActivity extends AppCompatActivity {
         }
 
         //jump to the next activity (consumed page)
-        Intent i = new Intent(this, consumedActivity.class);
+        Intent i = new Intent(this, bedtimeActivity.class);
         startActivity(i);
     }
 }

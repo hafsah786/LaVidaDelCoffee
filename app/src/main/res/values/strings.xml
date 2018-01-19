@@ -75,5 +75,7 @@
     <string name="personality_capp">sociable, creative, optimistic</string>
     <string name="personality_mocha">sweet, fun-loving</string>
     <string name="personality_mac">reserved, traditional, confident</string>
+    <string name="bedtime">When do you usually go to bed?\nPlease use 24-hour time</string>
+    <string name="bedtime_hint">e.g. 9pm = 21; 10pm = 22; 11pm = 23</string>
 
 </resources>
