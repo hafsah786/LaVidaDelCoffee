@@ -17,7 +17,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void startApp(View view) {
-        Intent i = new Intent(this, consumedActivity.class);
+        Intent i = new Intent(this, preferenceActivity.class);
+
         startActivity(i);
     }
 }
