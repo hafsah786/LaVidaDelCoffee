@@ -59,7 +59,6 @@
             android:layout_height="143dp"
             android:layout_above="@+id/button"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="20dp"
             android:background="@color/colorBrown"
             android:fontFamily="casual"
             android:paddingEnd="5dp"

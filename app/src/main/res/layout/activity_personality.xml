@@ -28,7 +28,7 @@
             android:layout_marginBottom="20dp"
             android:layout_marginEnd="15dp"
             android:layout_marginStart="15dp"
-            android:layout_marginTop="75dp"
+            android:layout_marginTop="55dp"
             android:gravity="center"
             android:text="@string/personality_question"
             android:textAlignment="center"
@@ -43,56 +43,56 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
+            android:onClick="onCheckboxClicked"
             android:text="@string/personality_latte"
             android:textAlignment="viewStart"
-            android:textSize="18sp"
-            android:onClick="onCheckboxClicked"/>
+            android:textSize="18sp" />
 
         <CheckBox
             android:id="@+id/amBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
+            android:onClick="onCheckboxClicked"
             android:text="@string/personality_americano"
-            android:textSize="18sp"
-            android:onClick="onCheckboxClicked"/>
+            android:textSize="18sp" />
 
         <CheckBox
             android:id="@+id/cappBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
+            android:onClick="onCheckboxClicked"
             android:text="@string/personality_capp"
-            android:textSize="18sp"
-            android:onClick="onCheckboxClicked"/>
+            android:textSize="18sp" />
 
         <CheckBox
             android:id="@+id/espBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
+            android:onClick="onCheckboxClicked"
             android:text="@string/personality_esp"
-            android:textSize="18sp"
-            android:onClick="onCheckboxClicked"/>
+            android:textSize="18sp" />
 
         <CheckBox
             android:id="@+id/macBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
+            android:onClick="onCheckboxClicked"
             android:text="@string/personality_mac"
-            android:textSize="18sp"
-            android:onClick="onCheckboxClicked"/>
+            android:textSize="18sp" />
 
         <CheckBox
             android:id="@+id/mochaBox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
+            android:layout_marginBottom="5dp"
             android:layout_marginLeft="60dp"
+            android:onClick="onCheckboxClicked"
             android:text="@string/personality_mocha"
-            android:textSize="18sp"
-            android:onClick="onCheckboxClicked"/>
+            android:textSize="18sp" />
 
         <ImageView
             android:id="@+id/coffeeLove"
