@@ -68,5 +68,12 @@
     <string name="froth_text">Froth</string>
     <string name="none_button">None of the above options</string>
     <string name="chocolate_string">Chocolate</string>
+    <string name="personality_question">How do you describe your personality?</string>
+    <string name="personality_americano">quiet, moody</string>
+    <string name="personality_latte">comfort seaker, layback</string>
+    <string name="personality_esp">hardworking</string>
+    <string name="personality_capp">sociable, creative, optimistic</string>
+    <string name="personality_mocha">sweet, fun-loving</string>
+    <string name="personality_mac">reserved, traditional, confident</string>
 
 </resources>
