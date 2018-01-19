@@ -50,7 +50,7 @@ public class consumedActivity extends AppCompatActivity {
      * add one point to the input type of coffee
      * @param string: the type of coffee that will be added point to
      */
-    public void addPoint(String string) {
+    public static void addPoint(String string) {
         coffeePoint.add(string);
     }
 
