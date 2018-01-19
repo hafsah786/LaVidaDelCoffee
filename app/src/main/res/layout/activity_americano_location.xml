@@ -59,6 +59,7 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:text="@string/star"
+                    android:textColor="@android:color/black"
                     android:textColorLink="@android:color/black" />
 
                 <TextView
@@ -69,6 +70,7 @@
                     android:ems="10"
                     android:inputType="none"
                     android:text="@string/wood"
+                    android:textColor="@android:color/black"
                     android:textColorLink="@android:color/black"/>
 
                 <TextView
@@ -79,6 +81,7 @@
                     android:ems="10"
                     android:inputType="none"
                     android:text="@string/roost"
+                    android:textColor="@android:color/black"
                     android:textColorLink="@android:color/black"/>
 
                 <TextView
@@ -89,6 +92,7 @@
                     android:ems="10"
                     android:inputType="none"
                     android:text="@string/cc"
+                    android:textColor="@android:color/black"
                     android:textColorLink="@android:color/black"/>
 
                 <TextView
@@ -99,6 +103,7 @@
                     android:ems="10"
                     android:inputType="none"
                     android:text="@string/shelburne"
+                    android:textColor="@android:color/black"
                     android:textColorLink="@android:color/black"/>
 
 
@@ -118,6 +123,7 @@
                     android:ems="10"
                     android:inputType="none"
                     android:text="@string/price_225"
+                    android:textColor="@android:color/black"
                     android:textColorLink="@android:color/black"/>
 
                 <TextView
@@ -128,6 +134,7 @@
                     android:ems="10"
                     android:inputType="none"
                     android:text="@string/price_224"
+                    android:textColor="@android:color/black"
                     android:textColorLink="@android:color/black"/>
 
                 <TextView
@@ -138,6 +145,7 @@
                     android:ems="10"
                     android:inputType="none"
                     android:text="@string/price_275"
+                    android:textColor="@android:color/black"
                     android:textColorLink="@android:color/black"/>
 
                 <TextView
@@ -148,6 +156,7 @@
                     android:ems="10"
                     android:inputType="none"
                     android:text="@string/price_190"
+                    android:textColor="@android:color/black"
                     android:textColorLink="@android:color/black"/>
 
                 <TextView
@@ -158,6 +167,7 @@
                     android:ems="10"
                     android:inputType="none"
                     android:text="@string/price_225"
+                    android:textColor="@android:color/black"
                     android:textColorLink="@android:color/black"/>
             </LinearLayout>
 

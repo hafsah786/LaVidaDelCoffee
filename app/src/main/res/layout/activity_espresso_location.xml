@@ -60,6 +60,7 @@
                     android:ems="10"
                     android:inputType="none"
                     android:text="@string/star"
+                    android:textColor="@android:color/black"
                     android:textColorLink="@android:color/black"/>
 
                 <TextView
@@ -70,6 +71,7 @@
                     android:ems="10"
                     android:inputType="none"
                     android:text="@string/wood"
+                    android:textColor="@android:color/black"
                     android:textColorLink="@android:color/black"/>
 
                 <TextView
@@ -80,6 +82,7 @@
                     android:ems="10"
                     android:inputType="none"
                     android:text="@string/roost"
+                    android:textColor="@android:color/black"
                     android:textColorLink="@android:color/black"/>
 
                 <TextView
@@ -90,6 +93,7 @@
                     android:ems="10"
                     android:inputType="none"
                     android:text="@string/cc"
+                    android:textColor="@android:color/black"
                     android:textColorLink="@android:color/black"/>
 
                 <TextView
@@ -100,6 +104,7 @@
                     android:ems="10"
                     android:inputType="none"
                     android:text="@string/shelburne"
+                    android:textColor="@android:color/black"
                     android:textColorLink="@android:color/black"/>
 
 
@@ -119,6 +124,7 @@
                     android:ems="10"
                     android:inputType="none"
                     android:text="@string/price_195"
+                    android:textColor="@android:color/black"
                     android:textColorLink="@android:color/black"/>
 
                 <TextView
@@ -129,6 +135,7 @@
                     android:ems="10"
                     android:inputType="none"
                     android:text="@string/price_206"
+                    android:textColor="@android:color/black"
                     android:textColorLink="@android:color/black"/>
 
                 <TextView
@@ -139,6 +146,7 @@
                     android:ems="10"
                     android:inputType="none"
                     android:text="@string/price_195"
+                    android:textColor="@android:color/black"
                     android:textColorLink="@android:color/black"/>
 
                 <TextView
@@ -149,6 +157,7 @@
                     android:ems="10"
                     android:inputType="none"
                     android:text="@string/price_160"
+                    android:textColor="@android:color/black"
                     android:textColorLink="@android:color/black"/>
 
                 <TextView
@@ -159,6 +168,7 @@
                     android:ems="10"
                     android:inputType="none"
                     android:text="@string/price_192"
+                    android:textColor="@android:color/black"
                     android:textColorLink="@android:color/black"/>
             </LinearLayout>
 
