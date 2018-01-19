@@ -59,6 +59,7 @@
                     android:layout_height="wrap_content"
                     android:ems="10"
                     android:text="@string/star"
+                    android:textColor="@android:color/black"
                     android:textColorLink="@android:color/black" />
 
                 <TextView
