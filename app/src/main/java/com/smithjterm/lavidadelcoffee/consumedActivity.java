@@ -8,8 +8,11 @@ import android.view.View;
 import android.webkit.HttpAuthHandler;
 import android.widget.TextView;
 
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Random;
 
@@ -52,6 +55,15 @@ public class consumedActivity extends AppCompatActivity {
      */
     public static void addPoint(String string) {
         coffeePoint.add(string);
+    }
+
+
+    /**
+     * decrement one point to the input type of coffee
+     * @param string: the type of coffee that will be decremented point to
+     */
+    public static void decPoint(String string) {
+        coffeePoint.dec(string);
     }
 
 
@@ -132,12 +144,58 @@ public class consumedActivity extends AppCompatActivity {
         return left;
     }
 
+    public void coffeeTime() {
+        DateFormat df = new SimpleDateFormat("HH");
+        Date dateobj = new Date();
+        int hour = Integer.parseInt(df.format(dateobj));
+
+        Log.i("current time", Integer.toString(hour));
+
+        if(hour <= 10) {
+            addPoint("Latte");
+            //if the point of Latte is greater than the point of maxPoint, Latte becomes the new maxPoint
+            if(coffeePoint.getPoint("Latte") > coffeePoint.getPoint(coffeePoint.maxPoint)){
+                coffeePoint.maxPoint = "Latte";
+            }
+        }
+        if(hour <= 12) {
+            addPoint("Cappuccino");
+            //if the point of Capp is greater than the point of maxPoint, Capp becomes the new maxPoint
+            if(coffeePoint.getPoint("Cappuccino") > coffeePoint.getPoint(coffeePoint.maxPoint)){
+                coffeePoint.maxPoint = "Cappuccino";
+            }
+        }
+        if(hour > 19) {
+            decPoint("Americano");
+            //if the point of Am is greater than the point of maxPoint, Am becomes the new maxPoint
+            if(coffeePoint.getPoint("Americano") > coffeePoint.getPoint(coffeePoint.maxPoint)){
+                coffeePoint.maxPoint = "Americano";
+            }
+        }
+
+        if(hour > 15) {
+            decPoint("Espresso");
+            //if the point of Esp is greater than the point of maxPoint, Esp becomes the new maxPoint
+            if(coffeePoint.getPoint("Espresso") > coffeePoint.getPoint(coffeePoint.maxPoint)){
+                coffeePoint.maxPoint = "Espresso";
+            }
+        }
+        if(hour > 17) {
+            decPoint("Mocha");
+            //if the point of Mocha is greater than the point of maxPoint, Mocha becomes the new maxPoint
+            if(coffeePoint.getPoint("Mocha") > coffeePoint.getPoint(CoffeePoint.maxPoint)){
+                coffeePoint.maxPoint = "Mocha";
+            }
+        }
+    }
+
 
     /**
      * jump to corresponding activity (coffee display page) based on the chosen coffee type
      */
     public void jumpActivity(View view) {
         int left = remainCoffee();
+        coffeeTime();
 
         //if the user already exceeds their caffeine amount, jump to NoRemaining page
         if(left < 0) {

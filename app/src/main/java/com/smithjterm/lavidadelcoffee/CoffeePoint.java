@@ -43,6 +43,12 @@ public class CoffeePoint {
         coffeeMap.put(string, newPoint);
     }
 
+    public void dec(String string) {
+        int newPoint = getPoint(string)-1;
+        coffeeMap.remove(string);
+        coffeeMap.put(string, newPoint);
+    }
+
     public void resetHash (){
         coffeeMap.remove("Latte");
         coffeeMap.put("Latte",0);
