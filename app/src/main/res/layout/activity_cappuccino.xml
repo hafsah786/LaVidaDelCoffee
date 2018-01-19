@@ -69,9 +69,8 @@
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignEnd="@+id/imageView5"
             android:layout_alignParentBottom="true"
-            android:layout_below="@+id/latteContent"
+            android:layout_toEndOf="@+id/latteText"
             android:onClick="locationAct"
             android:text="@string/locationButton" />
 

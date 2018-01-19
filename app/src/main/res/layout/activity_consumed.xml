@@ -68,7 +68,7 @@
             tools:layout_editor_absoluteY="364dp" />
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/coffeeLove"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:baselineAlignBottom="true"

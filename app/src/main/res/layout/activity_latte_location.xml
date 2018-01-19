@@ -16,7 +16,7 @@
         tools:layout_editor_absoluteY="64dp">
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/coffeeLove"
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:layout_alignParentStart="true"
@@ -31,7 +31,7 @@
             android:layout_width="500dp"
             android:layout_height="250dp"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/imageView3"
+            android:layout_below="@+id/coffeeLove"
             android:layout_marginBottom="20dp"
             android:layout_marginTop="20dp"
             android:orientation="horizontal"
@@ -148,7 +148,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@+id/horizontal"
-            android:layout_alignEnd="@+id/imageView3"
+            android:layout_alignEnd="@+id/coffeeLove"
             android:layout_marginEnd="51dp"
             android:text="@string/locationButton"
             android:textColor="@color/colorBrown"

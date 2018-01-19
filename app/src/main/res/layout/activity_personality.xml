@@ -95,13 +95,13 @@
             android:onClick="onCheckboxClicked"/>
 
         <ImageView
-            android:id="@+id/imageView3"
+            android:id="@+id/coffeeLove"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
             android:adjustViewBounds="true"
 
             android:baselineAlignBottom="true"
+            android:scaleType="fitXY"
             app:srcCompat="@drawable/questionlove" />
 
 
