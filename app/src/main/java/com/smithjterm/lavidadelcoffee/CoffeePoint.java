@@ -43,4 +43,26 @@ public class CoffeePoint {
         coffeeMap.put(string, newPoint);
     }
 
+    public void resetHash (){
+        coffeeMap.remove("Latte");
+        coffeeMap.put("Latte",0);
+
+        coffeeMap.remove("Cappuccino");
+        coffeeMap.put("Cappuccino",0);
+
+        coffeeMap.remove("Mocha");
+        coffeeMap.put("Mocha",0);
+
+        coffeeMap.remove("Americano");
+        coffeeMap.put("Americano",0);
+
+        coffeeMap.remove("Espresso");
+        coffeeMap.put("Espresso",0);
+
+        coffeeMap.remove("Macchiato");
+        coffeeMap.put("Macchiato",0);
+
+
+    }
+
 }

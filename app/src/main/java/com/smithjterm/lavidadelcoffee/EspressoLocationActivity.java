@@ -15,6 +15,7 @@ public class EspressoLocationActivity extends AppCompatActivity {
 
     public void resetApp(View view) {
         Intent i = new Intent(this, MainActivity.class);
+        consumedActivity.coffeePoint.resetHash();
         startActivity(i);
     }
 }
