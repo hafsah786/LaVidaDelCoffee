@@ -52,45 +52,55 @@
                 app:layout_constraintRight_toRightOf="parent"
                 tools:layout_editor_absoluteY="164dp">
 
-                <EditText
+                <TextView
                     android:id="@+id/starbucksText"
+                    style="@style/Widget.AppCompat.AutoCompleteTextView"
                     android:layout_width="150dp"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="none|textMultiLine"
-                    android:text="@string/star" />
+                    android:text="@string/star"
+                    android:textColorLink="@android:color/black" />
 
-                <EditText
+                <TextView
                     android:id="@+id/woodText"
+                    style="@style/Widget.AppCompat.AutoCompleteTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="none|textMultiLine"
-                    android:text="@string/wood" />
+                    android:inputType="none"
+                    android:text="@string/wood"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium.Inverse"
+                    android:textColorLink="@android:color/black" />
 
-                <EditText
+                <TextView
                     android:id="@+id/roostText"
+                    style="@style/Widget.AppCompat.AutoCompleteTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="none|textMultiLine"
-                    android:text="@string/roost" />
+                    android:inputType="none"
+                    android:text="@string/roost"
+                    android:textColorLink="@android:color/black"/>
 
-                <EditText
+                <TextView
                     android:id="@+id/ccText"
+                    style="@style/Widget.AppCompat.AutoCompleteTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="none|textMultiLine"
-                    android:text="@string/cc" />
+                    android:inputType="none"
+                    android:text="@string/cc"
+                    android:textColorLink="@android:color/black"/>
 
-                <EditText
+                <TextView
                     android:id="@+id/editText9"
+                    style="@style/Widget.AppCompat.AutoCompleteTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="none|textMultiLine"
-                    android:text="@string/shelburne" />
+                    android:inputType="none"
+                    android:text="@string/shelburne"
+                    android:textColorLink="@android:color/black"/>
 
 
             </LinearLayout>
@@ -101,45 +111,55 @@
                 android:layout_marginTop="20dp"
                 android:orientation="vertical">
 
-                <EditText
+                <TextView
                     android:id="@+id/starbucksPriceAm"
+                    style="@style/Widget.AppCompat.AutoCompleteTextView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="none|textMultiLine"
-                    android:text="@string/price_325" />
+                    android:inputType="none"
+                    android:text="@string/price_325"
+                    android:textColorLink="@android:color/black"/>
 
-                <EditText
+                <TextView
                     android:id="@+id/woodPriceAm"
+                    style="@style/Widget.AppCompat.AutoCompleteTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="none|textMultiLine"
-                    android:text="@string/price_294" />
+                    android:inputType="none"
+                    android:text="@string/price_294"
+                    android:textColorLink="@android:color/black"/>
 
-                <EditText
+                <TextView
                     android:id="@+id/roostPriceAm"
+                    style="@style/Widget.AppCompat.AutoCompleteTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="none|textMultiLine"
-                    android:text="@string/price_350" />
+                    android:inputType="none"
+                    android:text="@string/price_350"
+                    android:textColorLink="@android:color/black"/>
 
-                <EditText
+                <TextView
                     android:id="@+id/ccPriceAm"
+                    style="@style/Widget.AppCompat.AutoCompleteTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="none|textMultiLine"
-                    android:text="@string/price_275" />
+                    android:inputType="none"
+                    android:text="@string/price_275"
+                    android:textColorLink="@android:color/black"/>
 
-                <EditText
+                <TextView
                     android:id="@+id/shelPriceAm2"
+                    style="@style/Widget.AppCompat.AutoCompleteTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:ems="10"
-                    android:inputType="none|textMultiLine"
-                    android:text="@string/price_325" />
+                    android:inputType="none"
+                    android:text="@string/price_325"
+                    android:textColorLink="@android:color/black"/>
             </LinearLayout>
 
 
