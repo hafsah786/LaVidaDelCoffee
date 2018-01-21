@@ -25,7 +25,7 @@ public class bedtimeActivity extends AppCompatActivity {
         return Integer.parseInt(inputString);
     }
 
-    public void bedTime(View view) {
+    public void bed(View view) {
         DateFormat df = new SimpleDateFormat("HH");
         Date dateobj = new Date();
         int hour = Integer.parseInt(df.format(dateobj));
@@ -73,7 +73,7 @@ public class bedtimeActivity extends AppCompatActivity {
         if(hour > 17) {
             consumedActivity.decPoint("Mocha");
             //if the point of Mocha is greater than the point of maxPoint, Mocha becomes the new maxPoint
-            if(consumedActivity.coffeePoint.getPoint("Mocha") > consumedActivity.coffeePoint.getPoint(CoffeePoint.maxPoint)){
+            if(consumedActivity.coffeePoint.getPoint("Mocha") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)){
                 consumedActivity.coffeePoint.maxPoint = "Mocha";
             }
         }

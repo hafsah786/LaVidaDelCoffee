@@ -137,7 +137,7 @@ public class consumedActivity extends AppCompatActivity {
         if (remainingMocha >= 0 ) {
             addPoint("Mocha");
             //if the point of Mocha is greater than the point of maxPoint, Mocha becomes the new maxPoint
-            if(coffeePoint.getPoint("Mocha") > coffeePoint.getPoint(CoffeePoint.maxPoint)){
+            if(coffeePoint.getPoint("Mocha") > coffeePoint.getPoint(coffeePoint.maxPoint)){
                 coffeePoint.maxPoint = "Mocha";
             }
         }

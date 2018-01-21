@@ -91,7 +91,7 @@ public class personalityActivity extends AppCompatActivity {
                 break;
         }
 
-        //jump to the next activity (consumed page)
+        //jump to the next activity
         Intent i = new Intent(this, bedtimeActivity.class);
         startActivity(i);
     }
