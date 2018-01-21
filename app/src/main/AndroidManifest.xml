@@ -32,7 +32,13 @@
         <activity android:name=".NoRemainingCoffeeActivity" />
         <activity android:name=".preferenceActivity" />
         <activity android:name=".personalityActivity" />
-        <activity android:name=".bedtimeActivity"></activity>
+        <activity android:name=".bedtimeActivity" />
+        <activity android:name=".iceAmericanoActivity" />
+        <activity android:name=".iceCappActivity" />
+        <activity android:name=".iceLatteActivity" />
+        <activity android:name=".iceMochaActivity" />
+        <activity android:name=".iceCaramelMacActivity" />
+        <activity android:name=".iceLatteMacActivity"></activity>
     </application>
 
 </manifest>
