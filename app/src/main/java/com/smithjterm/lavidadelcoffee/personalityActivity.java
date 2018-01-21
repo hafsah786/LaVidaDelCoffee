@@ -28,7 +28,7 @@ public class personalityActivity extends AppCompatActivity {
                 if (checked){
                     consumedActivity.addPoint("Latte");
                     //if the point of Latte is greater than the point of maxPoint, Latte becomes the new maxPoint
-                    if(consumedActivity.coffeePoint.getPoint("Latte") > consumedActivity.coffeePoint.getPoint(CoffeePoint.maxPoint)){
+                    if(consumedActivity.coffeePoint.getPoint("Latte") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)){
                         consumedActivity.coffeePoint.maxPoint = "Latte";
                     }
                 }
@@ -39,7 +39,7 @@ public class personalityActivity extends AppCompatActivity {
                 if (checked){
                     consumedActivity.addPoint("Mocha");
                     //if the point of Mocha is greater than the point of maxPoint, Mocha becomes the new maxPoint
-                    if(consumedActivity.coffeePoint.getPoint("Mocha") > consumedActivity.coffeePoint.getPoint(CoffeePoint.maxPoint)){
+                    if(consumedActivity.coffeePoint.getPoint("Mocha") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)){
                         consumedActivity.coffeePoint.maxPoint = "Mocha";
                     }
                 }
@@ -50,7 +50,7 @@ public class personalityActivity extends AppCompatActivity {
                 if (checked){
                     consumedActivity.addPoint("Cappuccino");
                     //if the point of Capp is greater than the point of maxPoint, Capp becomes the new maxPoint
-                    if(consumedActivity.coffeePoint.getPoint("Cappuccino") > consumedActivity.coffeePoint.getPoint(CoffeePoint.maxPoint)){
+                    if(consumedActivity.coffeePoint.getPoint("Cappuccino") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)){
                         consumedActivity.coffeePoint.maxPoint = "Cappuccino";;
                     }
                 }
@@ -61,7 +61,7 @@ public class personalityActivity extends AppCompatActivity {
                 if (checked){
                     consumedActivity.addPoint("Macchiato");
                     //if the point of Mac is greater than the point of maxPoint, Mac becomes the new maxPoint
-                    if(consumedActivity.coffeePoint.getPoint("Macchiato") > consumedActivity.coffeePoint.getPoint(CoffeePoint.maxPoint)){
+                    if(consumedActivity.coffeePoint.getPoint("Macchiato") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)){
                         consumedActivity.coffeePoint.maxPoint = "Macchiato";
                     }
                 }
@@ -73,7 +73,7 @@ public class personalityActivity extends AppCompatActivity {
                 if (checked){
                     consumedActivity.addPoint("Espresso");
                     //if the point of Esp is greater than the point of maxPoint, Esp becomes the new maxPoint
-                    if(consumedActivity.coffeePoint.getPoint("Espresso") > consumedActivity.coffeePoint.getPoint(CoffeePoint.maxPoint)){
+                    if(consumedActivity.coffeePoint.getPoint("Espresso") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)){
                         consumedActivity.coffeePoint.maxPoint = "Espresso";
                     }
                 }
@@ -84,7 +84,7 @@ public class personalityActivity extends AppCompatActivity {
                 if (checked){
                     consumedActivity.addPoint("Americano");
                     //if the point of Am is greater than the point of maxPoint, Am becomes the new maxPoint
-                    if(consumedActivity.coffeePoint.getPoint("Americano") > consumedActivity.coffeePoint.getPoint(CoffeePoint.maxPoint)){
+                    if(consumedActivity.coffeePoint.getPoint("Americano") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)){
                         consumedActivity.coffeePoint.maxPoint = "Americano";
                     }
                 }
