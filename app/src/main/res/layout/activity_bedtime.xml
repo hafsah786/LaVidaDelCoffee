@@ -34,28 +34,28 @@
             tools:layout_editor_absoluteX="27dp"
             tools:layout_editor_absoluteY="143dp" />
 
-        <!--<EditText-->
-            <!--android:id="@+id/bedtimeinput_box"-->
-            <!--android:layout_width="match_parent"-->
-            <!--android:layout_height="wrap_content"-->
-            <!--android:layout_marginBottom="50dp"-->
-            <!--android:layout_marginEnd="20dp"-->
-            <!--android:layout_marginStart="25dp"-->
-            <!--android:ems="10"-->
-            <!--android:gravity="left|center"-->
-            <!--android:hint="@string/bedtime_hint"-->
-            <!--android:inputType="time"-->
-            <!--android:textColorLink="@color/colorBrown"-->
-            <!--android:textSize="14sp"-->
-            <!--tools:layout_editor_absoluteX="60dp"-->
-            <!--tools:layout_editor_absoluteY="261dp" />-->
+        <EditText
+            android:id="@+id/bedtimeinput_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="25dp"
+            android:ems="10"
+            android:gravity="left|center"
+            android:hint="@string/bedtime_hint"
+            android:inputType="time"
+            android:textColorLink="@color/colorBrown"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="60dp"
+            tools:layout_editor_absoluteY="261dp" />
 
         <Button
             android:id="@+id/submit_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
-            android:layout_marginEnd="125dp"
+            android:layout_marginEnd="130dp"
             android:layout_marginStart="130dp"
             android:background="@color/colorBrown"
             android:onClick="bedTime"
@@ -74,13 +74,6 @@
             android:baselineAlignBottom="true"
             android:scaleType="fitXY"
             app:srcCompat="@drawable/bedtime" />
-
-        <EditText
-            android:id="@+id/editText2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="time" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
