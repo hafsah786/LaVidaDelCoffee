@@ -59,15 +59,6 @@ public class consumedActivity extends AppCompatActivity {
 
 
     /**
-     * decrement one point to the input type of coffee
-     * @param string: the type of coffee that will be decremented point to
-     */
-    public static void decPoint(String string) {
-        coffeePoint.dec(string);
-    }
-
-
-    /**
      * if "left" is greater than the caffeine of a certain type of coffee
      * add one point to that type of coffee
      *

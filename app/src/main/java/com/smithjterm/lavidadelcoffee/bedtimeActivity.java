@@ -46,32 +46,32 @@ public class bedtimeActivity extends AppCompatActivity {
                 consumedActivity.coffeePoint.maxPoint = "Cappuccino";
             }
         }
-        if(hour > 19) {
-            consumedActivity.decPoint("Americano");
+        if(hour <= 19) {
+            consumedActivity.addPoint("Americano");
             //if the point of Am is greater than the point of maxPoint, Am becomes the new maxPoint
             if(consumedActivity.coffeePoint.getPoint("Americano") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)){
                 consumedActivity.coffeePoint.maxPoint = "Americano";
             }
         }
 
-        if((bedtime - hour) < 8) {
-            consumedActivity.decPoint("Espresso");
+        if(Math.abs(bedtime - hour) >= 8) {
+            consumedActivity.addPoint("Espresso");
             //if the point of Esp is greater than the point of maxPoint, Esp becomes the new maxPoint
             if(consumedActivity.coffeePoint.getPoint("Espresso") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)){
                 consumedActivity.coffeePoint.maxPoint = "Espresso";
             }
         }
 
-        if((bedtime - hour) < 8) {
-            consumedActivity.decPoint("Macchiato");
+        if(Math.abs(bedtime - hour) >= 8) {
+            consumedActivity.addPoint("Macchiato");
             //if the point of Esp is greater than the point of maxPoint, Esp becomes the new maxPoint
             if(consumedActivity.coffeePoint.getPoint("Macchiato") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)){
                 consumedActivity.coffeePoint.maxPoint = "Macchiato";
             }
         }
 
-        if(hour > 17) {
-            consumedActivity.decPoint("Mocha");
+        if(hour <= 17) {
+            consumedActivity.addPoint("Mocha");
             //if the point of Mocha is greater than the point of maxPoint, Mocha becomes the new maxPoint
             if(consumedActivity.coffeePoint.getPoint("Mocha") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)){
                 consumedActivity.coffeePoint.maxPoint = "Mocha";
