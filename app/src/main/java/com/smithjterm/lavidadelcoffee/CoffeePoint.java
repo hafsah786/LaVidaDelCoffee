@@ -12,7 +12,7 @@ public class CoffeePoint {
     public static HashMap<String, Integer> coffeeMap = new HashMap<String, Integer>();
 
     //the type of coffee that has the maximum point
-    public static String maxPoint = "Latte";
+    public String maxPoint = "Latte";
 
     /**
      * initialize the point of each coffee to 0
