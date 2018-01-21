@@ -16,7 +16,7 @@
         tools:layout_editor_absoluteY="64dp">
 
         <ImageView
-            android:id="@+id/coffeeLove"
+            android:id="@+id/bedtimeImage"
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:layout_alignParentStart="true"
@@ -32,7 +32,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/coffeeLove"
+            android:layout_below="@+id/bedtimeImage"
             android:layout_marginBottom="30dp"
             android:layout_marginTop="10dp"
             android:orientation="horizontal"
@@ -169,7 +169,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_above="@+id/horizontal"
-            android:layout_alignEnd="@+id/coffeeLove"
+            android:layout_alignEnd="@+id/bedtimeImage"
             android:layout_marginEnd="51dp"
             android:text="@string/locationButton"
             android:textColor="@color/colorBrown"
