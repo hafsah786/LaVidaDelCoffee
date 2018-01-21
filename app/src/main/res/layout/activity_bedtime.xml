@@ -73,7 +73,7 @@
             android:adjustViewBounds="true"
             android:baselineAlignBottom="true"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/bedtime" />
+            app:srcCompat="@drawable/bedtime" android:contentDescription="TODO"/>
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
