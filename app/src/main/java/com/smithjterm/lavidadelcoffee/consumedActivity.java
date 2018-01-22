@@ -169,6 +169,8 @@ public class consumedActivity extends AppCompatActivity {
         //if the user already exceeds their caffeine amount, jump to NoRemaining page
         if(left < 0) {
             Intent i = new Intent(this, NoRemainingCoffeeActivity.class);
+            TextView nameText = (TextView) findViewById(R.id.nameText);
+            nameText.setText(CoffeePoint.inputName);
             startActivity(i);
         }
         else if(coffeePoint.maxPoint.equals("Latte")) {

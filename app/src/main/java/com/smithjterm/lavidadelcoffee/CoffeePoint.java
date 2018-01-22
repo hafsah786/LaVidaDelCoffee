@@ -3,6 +3,7 @@ package com.smithjterm.lavidadelcoffee;
 import android.util.Log;
 
 import java.util.HashMap;
+import java.util.jar.Attributes;
 
 /**
  * a class that uses HashMap to store "type of coffee" and its point
@@ -10,6 +11,7 @@ import java.util.HashMap;
 
 public class CoffeePoint {
     public static HashMap<String, Integer> coffeeMap = new HashMap<String, Integer>();
+    public static String inputName = "";
 
     //the type of coffee that has the maximum point
     public String maxPoint = "Latte";
