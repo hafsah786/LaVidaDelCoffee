@@ -57,14 +57,14 @@ public class personalityActivity extends AppCompatActivity {
             case R.id.cappBox:
                 if (checked){
                     consumedActivity.addPoint("Cappuccino");
-                    consumedActivity.addPoint("iceCapp");
+                    //consumedActivity.addPoint("iceCapp");
                     //if the point of Capp is greater than the point of maxPoint, Capp becomes the new maxPoint
                     if(consumedActivity.coffeePoint.getPoint("Cappuccino") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)){
                         consumedActivity.coffeePoint.maxPoint = "Cappuccino";;
                     }
-                    if(consumedActivity.coffeePoint.getPoint("iceCapp") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)){
-                        consumedActivity.coffeePoint.maxPoint = "iceCapp";
-                    }
+//                    if(consumedActivity.coffeePoint.getPoint("iceCapp") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)){
+//                        consumedActivity.coffeePoint.maxPoint = "iceCapp";
+//                    }
                 }
                 break;
 
