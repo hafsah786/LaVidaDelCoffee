@@ -42,7 +42,7 @@
 
         <TextView
             android:id="@+id/latteInfo"
-            android:layout_width="247dp"
+            android:layout_width="wrap_content"
             android:layout_height="43dp"
             android:layout_below="@+id/imageView"
             android:layout_centerHorizontal="true"
