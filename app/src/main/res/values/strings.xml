@@ -11,6 +11,13 @@
     <string name="espressoText">Espresso</string>
     <string name="mochaText">Mocha</string>
 
+    <string name="icedlatteText">Iced Latte</string>
+    <string name="icedcappText">Iced Cappuccino</string>
+    <string name="icedlattemacchiatoText">Iced Latte Macchiato</string>
+    <string name="icedcaramelmacchiatoText">Iced Caramel Macchiato</string>
+    <string name="icedamericanoText">Iced Americano</string>
+    <string name="icedmochaText">Iced Mocha</string>
+
     <string name="CappuccinoInfo">1/3 espresso; 1/3 steamed milk; 1/3 foamed milk \n75 mg caffeine per 12 oz.</string>
     <string name="CappuccinoDescription">Cappuccino originated in Italy. The traditional cappuccino is prepared with two or one shots of rich espresso, topped with foamed milk. Cappuccino provides various psychological health benefits such as mind stimulation and mental alertness.</string>
 
@@ -21,9 +28,11 @@
     <string name="mochaInfo">2/5 espresso; 2/5 chocolate syrup; 1/5 steamed milk \n95 mg caffeine per 12 oz.</string>
 
     <string name="americanoInfo">2/5 espresso; 3/5 hot water \n150 mg caffeine per 12 oz.</string>
+    <string name="icedamericanoInfo">2/5 espresso; 3/5 water \n150 mg caffeine per 12 oz.</string>
     <string name="americanoDescription">Cafe Americano is a watered-down shot of espresso with a flavor arriving very close to simple, brewed coffee. The strong espresso in Americano awakens and increases productivity, but consumption is not suggested after 7pm.</string>
 
     <string name="macchiatoInfo">3/4 espresso; 1/4 steamed milk \n169 mg caffeine per 12 oz.</string>
+    <string name="icedmacchiatoInfo">3/4 espresso; 1/4 steamed milk \n150 mg caffeine per 12 oz.</string>
     <string name="macchiatoDescription">A macchiato is simply a shot of espresso topped with foamed milk. Macchiato can help gain focusness and mental alertness and also keep your blood pressure in control. However, high intake may cause side effects, such as increases in anxiety and nervousness.</string>
 
     <string name="espressoDescription">"Espresso is coffee brewed by forcing out a small amount of nearly boiling water under pressure through finely ground coffee beans. It is always a good idea to stop ordering espresso 8 hours before you go to bed.  "</string>
