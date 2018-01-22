@@ -93,5 +93,7 @@
     <string name="personality_mac">reserved, traditional, confident</string>
     <string name="bedtime">When do you usually go to bed? Please enter only the hour in 24-hour time</string>
     <string name="bedtime_hint">e.g. 9pm = 21; 10pm = 22; 11pm = 23</string>
+    <string name="enterNameText">Please Enter your Name Here:</string>
+    <string name="inputName">Enter Name Here!</string>
 
 </resources>

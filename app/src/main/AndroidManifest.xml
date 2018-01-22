@@ -39,7 +39,8 @@
         <activity android:name=".iceMochaActivity" />
         <activity android:name=".iceCaramelMacActivity" />
         <activity android:name=".iceLatteMacActivity" />
-        <activity android:name=".temperatureActivity"></activity>
+        <activity android:name=".temperatureActivity" />
+        <activity android:name=".NameActivity"></activity>
     </application>
 
 </manifest>
