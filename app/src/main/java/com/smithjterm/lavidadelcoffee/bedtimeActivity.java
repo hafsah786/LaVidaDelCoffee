@@ -45,19 +45,32 @@ public class bedtimeActivity extends AppCompatActivity {
                 if (consumedActivity.coffeePoint.getPoint("Latte") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)) {
                     consumedActivity.coffeePoint.maxPoint = "Latte";
                 }
+
+                if(consumedActivity.coffeePoint.getPoint("iceLatte") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)){
+                    consumedActivity.coffeePoint.maxPoint = "iceLatte";
+                }
             }
             if (hour <= 12) {
                 consumedActivity.addPoint("Cappuccino");
+                consumedActivity.addPoint("iceCapp");
                 //if the point of Capp is greater than the point of maxPoint, Capp becomes the new maxPoint
                 if (consumedActivity.coffeePoint.getPoint("Cappuccino") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)) {
                     consumedActivity.coffeePoint.maxPoint = "Cappuccino";
                 }
+
+                if(consumedActivity.coffeePoint.getPoint("iceCapp") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)){
+                    consumedActivity.coffeePoint.maxPoint = "iceCapp";
+                }
             }
             if (hour <= 19) {
                 consumedActivity.addPoint("Americano");
+                consumedActivity.addPoint("iceAmericano");
                 //if the point of Am is greater than the point of maxPoint, Am becomes the new maxPoint
                 if (consumedActivity.coffeePoint.getPoint("Americano") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)) {
                     consumedActivity.coffeePoint.maxPoint = "Americano";
+                }
+                if(consumedActivity.coffeePoint.getPoint("iceAmericano") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)){
+                    consumedActivity.coffeePoint.maxPoint = "iceAmericano";
                 }
             }
 
@@ -71,17 +84,30 @@ public class bedtimeActivity extends AppCompatActivity {
 
             if (Math.abs(bedtime - hour) >= 8) {
                 consumedActivity.addPoint("Macchiato");
+                consumedActivity.addPoint("iceCaramelMac");
+                consumedActivity.addPoint("iceLatteMac");
                 //if the point of Esp is greater than the point of maxPoint, Esp becomes the new maxPoint
                 if (consumedActivity.coffeePoint.getPoint("Macchiato") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)) {
                     consumedActivity.coffeePoint.maxPoint = "Macchiato";
+                }
+
+                if(consumedActivity.coffeePoint.getPoint("iceCaramelMac") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)){
+                    consumedActivity.coffeePoint.maxPoint = "iceCaramelMac";
+                }
+                if(consumedActivity.coffeePoint.getPoint("iceLatteMac") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)){
+                    consumedActivity.coffeePoint.maxPoint = "iceLatteMac";
                 }
             }
 
             if (hour <= 17) {
                 consumedActivity.addPoint("Mocha");
+                consumedActivity.addPoint("iceMocha");
                 //if the point of Mocha is greater than the point of maxPoint, Mocha becomes the new maxPoint
                 if (consumedActivity.coffeePoint.getPoint("Mocha") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)) {
                     consumedActivity.coffeePoint.maxPoint = "Mocha";
+                }
+                if(consumedActivity.coffeePoint.getPoint("iceMocha") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)){
+                    consumedActivity.coffeePoint.maxPoint = "iceMocha";
                 }
             }
             //jump to the next activity (consumed page)
