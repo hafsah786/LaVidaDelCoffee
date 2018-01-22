@@ -63,19 +63,19 @@
     <string name="limitReached">YOU HAVE REACHED YOUR COFFEE LIMIT!</string>
     <string name="dontCosume">Please do not consume anymore coffee or caffeine today!</string>
     <string name="nextButton">next</string>
-    <string name="coffee_preference">What do you like in your coffee?</string>
+    <string name="coffee_preference">What do you like in your coffee? (Please pick only 1) </string>
     <string name="milk_text">Milk</string>
     <string name="froth_text">Froth</string>
     <string name="none_button">None of the above options</string>
     <string name="chocolate_string">Chocolate</string>
-    <string name="personality_question">How do you describe your personality?</string>
+    <string name="personality_question">How do you describe your personality? (Please pick only 1)</string>
     <string name="personality_americano">quiet, moody</string>
-    <string name="personality_latte">comfort seaker, layback</string>
+    <string name="personality_latte">comfort seeker, laid back</string>
     <string name="personality_esp">hardworking</string>
     <string name="personality_capp">sociable, creative, optimistic</string>
     <string name="personality_mocha">sweet, fun-loving</string>
     <string name="personality_mac">reserved, traditional, confident</string>
-    <string name="bedtime">When do you usually go to bed?\nPlease use 24-hour time</string>
+    <string name="bedtime">When do you usually go to bed? Please enter only the hour in 24-hour time</string>
     <string name="bedtime_hint">e.g. 9pm = 21; 10pm = 22; 11pm = 23</string>
 
 </resources>
