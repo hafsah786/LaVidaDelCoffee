@@ -24,7 +24,7 @@
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:fontFamily="casual"
-            android:text="@string/icedcappText"
+            android:text="@string/cappText"
             android:textAlignment="center"
             android:textSize="30sp"
             android:textStyle="bold"
