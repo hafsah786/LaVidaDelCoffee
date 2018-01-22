@@ -43,8 +43,6 @@
     <string name="locationButton">LOCATIONS </string>
 
 
-
-
     <string name="star">Starbucks</string>
     <string name="wood">Woodstar Café</string>
     <string name="roost">The Roost</string>
@@ -70,6 +68,10 @@
     <string name="price_346">$3.46</string>
     <string name="home_text">HOME</string>
 
+
+    <string name="temperature_question">Are you in the mood for hot or cold coffee?</string>
+    <string name="hot">Hot</string>
+    <string name="cold">Cold</string>
 
     <string name="consumed_question">How many cups (12oz.) of coffee have you already consumed today?</string>
     <string name="consumed_hint">Please enter a number here (e.g. 0, 1, 2)</string>

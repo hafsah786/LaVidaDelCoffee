@@ -40,6 +40,7 @@ public class bedtimeActivity extends AppCompatActivity {
 
             if (hour <= 10) {
                 consumedActivity.addPoint("Latte");
+                consumedActivity.addPoint("iceLatte");
                 //if the point of Latte is greater than the point of maxPoint, Latte becomes the new maxPoint
                 if (consumedActivity.coffeePoint.getPoint("Latte") > consumedActivity.coffeePoint.getPoint(consumedActivity.coffeePoint.maxPoint)) {
                     consumedActivity.coffeePoint.maxPoint = "Latte";
@@ -84,7 +85,7 @@ public class bedtimeActivity extends AppCompatActivity {
                 }
             }
             //jump to the next activity (consumed page)
-            Intent i = new Intent(this, consumedActivity.class);
+            Intent i = new Intent(this, temperatureActivity.class);
             startActivity(i);
         }
     }

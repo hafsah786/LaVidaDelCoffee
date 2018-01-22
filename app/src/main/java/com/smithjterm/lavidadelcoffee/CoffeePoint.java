@@ -24,6 +24,12 @@ public class CoffeePoint {
         coffeeMap.put("Americano", 0);
         coffeeMap.put("Espresso", 0);
         coffeeMap.put("Macchiato", 0);
+        coffeeMap.put("iceAmericano", 0);
+        coffeeMap.put("iceCapp", 0);
+        coffeeMap.put("iceCaramelMac", 0);
+        coffeeMap.put("iceLatte", 0);
+        coffeeMap.put("iceMocha", 0);
+        coffeeMap.put("iceLatteMac", 0);
     }
 
     /**
@@ -63,6 +69,23 @@ public class CoffeePoint {
         coffeeMap.remove("Macchiato");
         coffeeMap.put("Macchiato",0);
 
+        coffeeMap.remove("iceAmericano");
+        coffeeMap.put("iceAmericano", 0);
+
+        coffeeMap.remove("iceCapp");
+        coffeeMap.put("iceCapp", 0);
+
+        coffeeMap.remove("iceCaramelMac");
+        coffeeMap.put("iceCaramelMac", 0);
+
+        coffeeMap.remove("iceLatte");
+        coffeeMap.put("iceLatte", 0);
+
+        coffeeMap.remove("iceMocha");
+        coffeeMap.put("iceMocha", 0);
+
+        coffeeMap.remove("iceLatteMac");
+        coffeeMap.put("iceLatteMac", 0);
 
     }
 

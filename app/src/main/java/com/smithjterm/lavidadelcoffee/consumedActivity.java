@@ -79,39 +79,60 @@ public class consumedActivity extends AppCompatActivity {
         int remainingMocha = left - MOCHA;
         int remainingCapp = left - CAPP;
 
+
         //if left is greater than the caffeine of Latte, add one point to Latte
         if (remainingLatte >= 0) {
             addPoint("Latte");
+            addPoint("iceLatte");
             //if the point of Latte is greater than the point of maxPoint, Latte becomes the new maxPoint
             if(coffeePoint.getPoint("Latte") > coffeePoint.getPoint(coffeePoint.maxPoint)){
                 coffeePoint.maxPoint = "Latte";
+            }
+            if(coffeePoint.getPoint("iceLatte") > coffeePoint.getPoint(coffeePoint.maxPoint)){
+                coffeePoint.maxPoint = "iceLatte";
             }
         }
 
         //if left is greater than the caffeine of Capp, add one point to Capp
         if (remainingCapp >= 0) {
             addPoint("Cappuccino");
+            addPoint("iceCapp");
             //if the point of Capp is greater than the point of maxPoint, Capp becomes the new maxPoint
             if(coffeePoint.getPoint("Cappuccino") > coffeePoint.getPoint(coffeePoint.maxPoint)){
                 coffeePoint.maxPoint = "Cappuccino";
+            }
+            if(coffeePoint.getPoint("iceCapp") > coffeePoint.getPoint(coffeePoint.maxPoint)){
+                coffeePoint.maxPoint = "iceCapp";
             }
         }
 
         //if left is greater than the caffeine of Am, add one point to Am
         if (remainingAm >= 0 ) {
             addPoint("Americano");
+            addPoint("iceAmericano");
             //if the point of Am is greater than the point of maxPoint, Am becomes the new maxPoint
             if(coffeePoint.getPoint("Americano") > coffeePoint.getPoint(coffeePoint.maxPoint)){
                 coffeePoint.maxPoint = "Americano";
+            }
+            if(coffeePoint.getPoint("iceAmericano") > coffeePoint.getPoint(coffeePoint.maxPoint)){
+                coffeePoint.maxPoint = "iceAmericano";
             }
         }
 
         //if left is greater than the caffeine of Mac, add one point to Mac
         if (remainingMac >= 0 ) {
             addPoint("Macchiato");
+            addPoint("iceCaramelMac");
+            addPoint("iceLatteMac");
             //if the point of Mac is greater than the point of maxPoint, Mac becomes the new maxPoint
             if(coffeePoint.getPoint("Macchiato") > coffeePoint.getPoint(coffeePoint.maxPoint)){
                 coffeePoint.maxPoint = "Macchiato";
+            }
+            if(coffeePoint.getPoint("iceCaramelMac") > coffeePoint.getPoint(coffeePoint.maxPoint)){
+                coffeePoint.maxPoint = "iceCaramelMac";
+            }
+            if(coffeePoint.getPoint("iceLatteMac") > coffeePoint.getPoint(coffeePoint.maxPoint)){
+                coffeePoint.maxPoint = "iceLatteMac";
             }
         }
 
@@ -127,15 +148,17 @@ public class consumedActivity extends AppCompatActivity {
         //if left is greater than the caffeine of Mocha, add one point to Mocha
         if (remainingMocha >= 0 ) {
             addPoint("Mocha");
+            addPoint("iceMocha");
             //if the point of Mocha is greater than the point of maxPoint, Mocha becomes the new maxPoint
             if(coffeePoint.getPoint("Mocha") > coffeePoint.getPoint(coffeePoint.maxPoint)){
                 coffeePoint.maxPoint = "Mocha";
             }
+            if(coffeePoint.getPoint("iceMocha") > coffeePoint.getPoint(coffeePoint.maxPoint)){
+                coffeePoint.maxPoint = "iceMocha";
+            }
         }
         return left;
     }
-
-
 
     /**
      * jump to corresponding activity (coffee display page) based on the chosen coffee type
@@ -170,6 +193,31 @@ public class consumedActivity extends AppCompatActivity {
         }
         else if(coffeePoint.maxPoint.equals("Mocha")) {
             Intent i = new Intent(this, MochaActivity.class);
+            startActivity(i);
+        }
+
+        else if(coffeePoint.maxPoint.equals("iceAmericano")) {
+            Intent i = new Intent(this, iceAmericanoActivity.class);
+            startActivity(i);
+        }
+        else if(coffeePoint.maxPoint.equals("iceCapp")) {
+            Intent i = new Intent(this, iceCappActivity.class);
+            startActivity(i);
+        }
+        else if(coffeePoint.maxPoint.equals("iceCaramelMac")) {
+            Intent i = new Intent(this, iceCaramelMacActivity.class);
+            startActivity(i);
+        }
+        else if(coffeePoint.maxPoint.equals("iceLatte")) {
+            Intent i = new Intent(this, iceLatteActivity.class);
+            startActivity(i);
+        }
+        else if(coffeePoint.maxPoint.equals("iceMocha")) {
+            Intent i = new Intent(this, iceMochaActivity.class);
+            startActivity(i);
+        }
+        else if(coffeePoint.maxPoint.equals("iceLatteMac")) {
+            Intent i = new Intent(this, iceLatteMacActivity.class);
             startActivity(i);
         }
     }
