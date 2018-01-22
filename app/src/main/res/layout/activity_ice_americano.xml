@@ -23,7 +23,7 @@
             android:layout_centerHorizontal="true"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:srcCompat="@drawable/americano"
+            app:srcCompat="@drawable/icedamericano"
             tools:layout_editor_absoluteY="2dp" />
 
         <TextView
@@ -47,7 +47,7 @@
             android:layout_below="@+id/latteText"
             android:layout_centerHorizontal="true"
             android:fontFamily="casual"
-            android:text="@string/americanoInfo"
+            android:text="@string/icedamericanoInfo"
             android:textAlignment="center"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintRight_toRightOf="parent"

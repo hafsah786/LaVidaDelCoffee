@@ -54,7 +54,7 @@
             android:layout_height="213dp"
             android:layout_above="@+id/latteText"
             android:layout_centerHorizontal="true"
-            app:srcCompat="@drawable/capp" />
+            app:srcCompat="@drawable/icedcapp" />
 
         <TextView
             android:id="@+id/textView2"
