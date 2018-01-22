@@ -65,7 +65,7 @@
             android:adjustViewBounds="true"
             android:baselineAlignBottom="true"
             android:scaleType="fitXY"
-            app:srcCompat="@drawable/brown" />
+            app:srcCompat="@drawable/coffeethermometer" />
 
 
     </LinearLayout>
