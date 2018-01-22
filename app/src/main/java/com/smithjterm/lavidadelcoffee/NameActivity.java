@@ -22,7 +22,7 @@ public class NameActivity extends AppCompatActivity {
 
     public void NameApp(View view) {
         Intent i = new Intent(this, preferenceActivity.class);
-
+        getName();
         startActivity(i);
     }
 }
